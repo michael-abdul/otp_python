@@ -1,0 +1,31 @@
+# 보안 민감 파일
+otp_keys.json
+*.json
+*.key
+*.pem
+
+# 생성된 파일
+*_qrcode.png
+
+# 가상환경
+.venv/
+venv/
+ENV/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS 시스템 파일
+.DS_Store
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 로그 및 임시 파일
+*.log
+tmp/
